@@ -62,7 +62,7 @@ export default function RetroHackathonCard() {
               {/* Register Button - Now at the top */}
               <Link href="https://code-coffee-philly-tech-week.devpost.com/" target="_blank" rel="noopener noreferrer">
                 <button className="pixel-button inline-block bg-pink-600 hover:bg-pink-500 text-white pixel-font py-2 px-6 text-lg transition-all">
-                  REGISTER NOW!
+                  REGISTER NOW
                 </button>
               </Link>
             </div>
