@@ -9,7 +9,7 @@ interface PixelBorderProps {
   className?: string
   onClick?: () => void
 }
-///hi there
+///hi theres
 export function PixelBorder({ children, className, onClick }: PixelBorderProps) {
   return (
     <div className={cn("pixel-border", className)} onClick={onClick}>
