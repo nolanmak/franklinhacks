@@ -72,7 +72,7 @@ export default function RetroHackathonCard() {
           <div className="flex-grow"></div>
 
           {/* Bottom Section: Description and Event Details */}
-          <div className="mt-auto">
+          <div className="mt-auto" style={{ marginBottom: '1rem' }}>
             {/* Description with semi-transparent background */}
             <div className="bg-indigo-950/60 p-3 mb-4 border-l-4 border-cyan-400">
               <p className="text-green-400 leading-relaxed">
@@ -84,20 +84,20 @@ export default function RetroHackathonCard() {
             </div>
 
             {/* Event Details */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-              <div className="bg-indigo-950/70 p-2 border-2 border-pink-500">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 w-full bg-indigo-950" style={{ marginBottom: '0.75rem' }}>
+              <div className="bg-indigo-950 p-2 border-2 border-pink-500 overflow-hidden" style={{ padding: '10px', marginBottom: '8px' }}>
                 <span className="block text-pink-500 pixel-font text-xs">WHEN</span>
                 <span className="text-cyan-300 text-sm">MAY 7 - MAY 10</span>
               </div>
-              <div className="bg-indigo-950/70 p-2 border-2 border-pink-500">
+              <div className="bg-indigo-950 p-2 border-2 border-pink-500 overflow-hidden" style={{ padding: '10px', marginBottom: '8px' }}>
                 <span className="block text-pink-500 pixel-font text-xs">WHERE</span>
                 <span className="text-cyan-300 text-sm">PHILADELPHIA, PA</span>
               </div>
-              <div className="bg-indigo-950/70 p-2 border-2 border-pink-500">
+              <div className="bg-indigo-950 p-2 border-2 border-pink-500 overflow-hidden" style={{ padding: '10px', marginBottom: '8px' }}>
                 <span className="block text-pink-500 pixel-font text-xs">PRIZES</span>
                 <span className="text-cyan-300 text-sm">$1500 POOL</span>
               </div>
-              <div className="bg-indigo-950/70 p-2 border-2 border-pink-500">
+              <div className="bg-indigo-950 p-2 border-2 border-pink-500 overflow-hidden" style={{ padding: '10px', marginBottom: '8px' }}>
                 <span className="block text-pink-500 pixel-font text-xs">TEAMS</span>
                 <span className="text-cyan-300 text-sm">1-4 PLAYERS</span>
               </div>
